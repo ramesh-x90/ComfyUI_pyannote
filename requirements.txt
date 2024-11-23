@@ -1,0 +1,4 @@
+pyannote.audio
+torch
+torchaudio
+pydub

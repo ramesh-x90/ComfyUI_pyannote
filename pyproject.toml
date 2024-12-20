@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_pyannote"
+description = "This repository provides custom nodes for ComfyUI designed to process audio files, performing speaker diarization and integrating speaker data into whisper-transcribed segments. These nodes utilize the PyAnnote library for speaker identification and pandas for efficient data handling."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pyannote.audio", "torch", "torchaudio", "pydub"]
+
+[project.urls]
+Repository = "https://github.com/ramesh-x90/ComfyUI_pyannote"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_pyannote"
+Icon = ""

@@ -10,6 +10,6 @@ Repository = "https://github.com/ramesh-x90/ComfyUI_pyannote"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "ramesh-x90"
 DisplayName = "ComfyUI_pyannote"
 Icon = ""

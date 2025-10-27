@@ -1,5 +1,5 @@
 [project]
-name = "comfyui_pyannote"
+name = "ComfyUI_pyannote"
 description = "This repository provides custom nodes for ComfyUI designed to process audio files, performing speaker diarization and integrating speaker data into whisper-transcribed segments. These nodes utilize the PyAnnote library for speaker identification and pandas for efficient data handling."
 version = "1.0.0"
 license = {file = "LICENSE"}

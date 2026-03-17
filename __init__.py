@@ -34,7 +34,7 @@ class SpeakerDiarizationNode:
 
     def diarize_audio(self, audio: dict, hf_token: str) -> List[Dict[str, Any]]:
 
-        pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", use_auth_token=hf_token)
+        pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization-3.1", token=hf_token)
         
         audio_save_path = os.path.join(os.getcwd() , "input" , f"{uuid.uuid1()}.wav")
         
